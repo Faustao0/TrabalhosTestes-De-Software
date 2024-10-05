@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.exercicios01testes.exercicio02.GerenciadorContasTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.060 s <<< FAILURE! -- in com.mycompany.exercicios01testes.exercicio02.GerenciadorContasTest
+com.mycompany.exercicios01testes.exercicio02.GerenciadorContasTest.testBuscarContaPorNumeroExistente -- Time elapsed: 0.016 s <<< ERROR!
+java.lang.IllegalArgumentException: Conta não encontrada.
+	at com.mycompany.exercicios01testes.exercicio02.GerenciadorContas.lambda$buscarContaPorNumero$1(GerenciadorContas.java:22)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.mycompany.exercicios01testes.exercicio02.GerenciadorContas.buscarContaPorNumero(GerenciadorContas.java:22)
+	at com.mycompany.exercicios01testes.exercicio02.GerenciadorContasTest.testBuscarContaPorNumeroExistente(GerenciadorContasTest.java:48)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
